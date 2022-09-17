@@ -8,16 +8,14 @@ public class Alg91
     {
         Scanner input = new Scanner(System.in);
         System.out.print("Entre com um numero: ");
-        int numero1 = input.nextInt();
+        double numero1 = input.nextDouble();
 
-        System.out.print("Entre com um numero: ");
-        int numero2 = input.nextInt();
+        System.out.print("Entre com outro numero: ");
+        double numero2 = input.nextDouble();
 
-        int resultado = numero1 + numero2;
-
-        if(resultado > 10)
+        if((numero1 + numero2) > 10)
         {
-            System.out.println("Resultado: " + resultado);
-        }
+            System.out.println("É mair do que 10.");
+        }else System.out.println(".");
     }
 }

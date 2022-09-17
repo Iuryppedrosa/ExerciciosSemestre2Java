@@ -2,7 +2,7 @@ package Jean;
 
 import java.util.Scanner;
 
-public class Alg94
+public class Alg95
 {
     public static void main(String[] args)
     {
@@ -10,9 +10,10 @@ public class Alg94
         System.out.print("Entre com um numero: ");
         int numero = input.nextInt();
 
-        if((numero % 3) == 0)
+        if((numero % 5) == 0)
         {
-            System.out.println("É multiplo de 3");
-        }else System.out.println("Não é multiplo de 3");
+            System.out.println("É multiplo de 5");
+        }else System.out.println("Não é multiplo de 5");
+
     }
 }

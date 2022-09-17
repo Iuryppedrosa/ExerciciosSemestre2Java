@@ -1,4 +1,4 @@
-package ProfessorJean;
+package Jean;
 
 import java.util.Scanner;
 
@@ -8,19 +8,18 @@ public class Alg92
     {
         Scanner input = new Scanner(System.in);
         System.out.print("Entre com um numero: ");
-        int numero1 = input.nextInt();
+        double numero1 = input.nextDouble();
 
-        System.out.print("Entre com um numero: ");
-        int numero2 = input.nextInt();
+        System.out.print("Entre com outro numero: ");
+        double numero2 = input.nextDouble();
 
-        int resultado = numero1 + numero2;
+        double resultado = numero1 + numero2;
 
         if(resultado > 20)
         {
-            System.out.printf("Resultado: %d", resultado + 8);
-        } else if (resultado <= 20)
-        {
-            System.out.printf("Resultado %d", resultado - 5);
-        }
+            System.out.println(resultado + 8);
+        }else if (resultado <= 20)
+            System.out.println(resultado - 5);
+
     }
 }

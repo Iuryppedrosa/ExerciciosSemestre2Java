@@ -1,4 +1,5 @@
-package ProfessorJean;
+package Jean;
+
 import java.util.Scanner;
 
 public class Alg98
@@ -6,19 +7,19 @@ public class Alg98
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        System.out.println("Qual seu salário: ");
-        double salario = input.nextDouble();
+        System.out.print("Qual seu salario bruto? ");
+        double salBruto = input.nextDouble();
 
-        System.out.println("Qual valor da prestação? ");
-        double prestacao = input.nextDouble();
+        System.out.print("Qual o valor da parcela sugerida? ");
+        double parcela = input.nextDouble();
 
-        double limite = (salario * 30) / 100;
+        double maximo = (salBruto * 30) / 100;
 
-        if(prestacao <= limite)
+        System.out.println("O limite da sua parcela é " + maximo);
+
+        if(parcela >= maximo)
         {
-            System.out.println("Limite concedido.");
-        }
-        else System.out.println("Valor excedido");
-
+            System.out.println("Nao pode ser concedido o emprestimo.");
+        }else System.out.println("Pode ser concedido");
     }
 }
