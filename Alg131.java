@@ -1,4 +1,4 @@
-package ProjetosJeanMarcus.src.Jean;
+package ProfessorJean;
 
 import java.util.Scanner;
 
