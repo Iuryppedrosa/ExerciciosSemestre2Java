@@ -57,11 +57,9 @@ public class Alg141
             n2 = n3;
             n3 = auxN;
         }
-
         System.out.printf("VENCEDOR%10s: %d pontos.%n", n1, p1);
 
         System.out.printf("SEGUNDO LUGAR%10s: %d pontos.%n", n2, p2);
         System.out.printf("TERCEIRO LUGAR%10s: %d pontos.%n", n3, p3);
-
     }
 }
