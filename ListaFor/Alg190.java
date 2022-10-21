@@ -21,6 +21,5 @@ public class Alg190
             }
         }
         System.out.println(count);
-
     }
 }
