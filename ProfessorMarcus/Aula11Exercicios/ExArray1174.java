@@ -1,5 +1,5 @@
 
-package ProfessorJean.ProfessorMarcus;
+package ProfessorJeanEMarcos.ProfessorMarcus.Aula11Exercicios;
 import java.util.Random;
 public class ExArray1174
 {

@@ -1,6 +1,6 @@
-package ProfessorJean.ListaSe;
+package ProfessorJeanEMarcos.ListaSe;
 import javax.swing.*;
-import java.util.Scanner;
+
 public class Alg32
 {
     public static void main(String[] args)

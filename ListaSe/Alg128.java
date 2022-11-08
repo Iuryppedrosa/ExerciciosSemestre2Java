@@ -1,4 +1,4 @@
-package ProfessorJean.ListaSe;
+package ProfessorJeanEMarcos.ListaSe;
 
 import java.util.Locale;
 import java.util.Scanner;

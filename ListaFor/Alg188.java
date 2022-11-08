@@ -1,4 +1,4 @@
-package ProfessorJean.ListaFor;
+package ProfessorJeanEMarcos.ListaFor;
 
 import java.util.Scanner;
 

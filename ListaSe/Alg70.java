@@ -1,4 +1,4 @@
-package ProfessorJean.ListaSe;
+package ProfessorJeanEMarcos.ListaSe;
 import java.util.Scanner;
 public class Alg70
 {

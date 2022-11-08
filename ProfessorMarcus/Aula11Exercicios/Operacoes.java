@@ -1,4 +1,4 @@
-package ProfessorJean.ProfessorMarcus.Aula11Exercicios;
+package ProfessorJeanEMarcos.ProfessorMarcus.Aula11Exercicios;
 
 import java.util.Scanner;
 

@@ -5,7 +5,7 @@ criar um al- goritmo que calcule o produto de dois números inteiros lidos.
 Suponha que os números lidos sejam positivos e que o
 multiplicando seja menor do que o multi- plicador.
 */
-package ProfessorJean.ListaFor;
+package ProfessorJeanEMarcos.ListaFor;
 import java.util.Scanner;
 
 public class Alg207

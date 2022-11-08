@@ -1,7 +1,7 @@
 //Entrar com quatro números inteiros e imprimir a média ponderada,
 // sabendo que os pesos são respectivamente 1, 2, 3, e 4.
 
-package ProfessorJean.ListaSe;
+package ProfessorJeanEMarcos.ListaSe;
 import java.util.Scanner;
 public class Alg41
 {

@@ -1,4 +1,4 @@
-package ProfessorJean.Funcoes;
+package ProfessorJeanEMarcos.Funcoes;
 
 import java.util.Scanner;
 

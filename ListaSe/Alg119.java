@@ -1,7 +1,5 @@
-package ProfessorJean.ListaSe;
+package ProfessorJeanEMarcos.ListaSe;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class Alg119

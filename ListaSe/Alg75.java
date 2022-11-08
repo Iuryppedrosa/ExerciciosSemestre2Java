@@ -1,4 +1,4 @@
-package ProfessorJean.ListaSe;
+package ProfessorJeanEMarcos.ListaSe;
 
 import java.text.NumberFormat;
 import java.util.Locale;

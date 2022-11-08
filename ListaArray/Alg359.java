@@ -1,4 +1,4 @@
-package ProfessorJean.ListaArray;
+package ProfessorJeanEMarcos.ListaArray;
 
 import java.util.Scanner;
 

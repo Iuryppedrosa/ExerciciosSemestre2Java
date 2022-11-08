@@ -1,4 +1,4 @@
-package ProfessorJean.ProfessorMarcus;
+package ProfessorJeanEMarcos.ProfessorMarcus.Aula11Exercicios;
 
 public class FuncoesTeste
 {

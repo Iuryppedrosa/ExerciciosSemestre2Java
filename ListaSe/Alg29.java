@@ -1,4 +1,4 @@
-package ProfessorJean.ListaSe;
+package ProfessorJeanEMarcos.ListaSe;
 
 public class Alg29
 {
