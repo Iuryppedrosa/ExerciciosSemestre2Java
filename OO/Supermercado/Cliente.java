@@ -18,11 +18,6 @@ public class Cliente
         this.pedidos = pedidos;
     }
 
-    public void comprar(int quantidade)
-    {
-
-    }
-
     public void setPedidos(ArrayList<Pedido> pedidos)
     {
         this.pedidos = pedidos;

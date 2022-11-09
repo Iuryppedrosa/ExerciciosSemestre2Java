@@ -1,5 +1,8 @@
 package ProfessorJeanEMarcos.OO.Supermercado;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Item
 {
     private int quantidade;
@@ -15,6 +18,18 @@ public class Item
         this.quantidade = quantidade;
         this.prod = prod;
         this.pedido = pedido;
+    }
+
+    public void addItem(Scanner input, ArrayList<Pedido> pedidos)
+    {
+        System.out.println("Qual quantidade de itens vc deseja adicionar: ");
+        int quantidade = input.nextInt();
+
+        Produto produto = new Produto();
+        Pedido pedido = new Pedido();
+        Item item = new Item(quantidade, produto, pedido);
+
+        pedidos.add(pedido);
     }
 
     public int getQuantidade()
